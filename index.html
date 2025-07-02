@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather Data</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather Data</h1>
+      <input id="cityInput" placeholder="Enter city name" />
+      <button onclick="getWeather()">Check</button>
+
+      <div id="result" class="hidden">
+        <h2 id="city"></h2>
+        <img id="icon" src="" />
+        <p id="temp"></p>
+        <p id="desc"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
